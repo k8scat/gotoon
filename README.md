@@ -1,11 +1,11 @@
 # GoTOON - Token-Oriented Object Notation for Go
 
-[![CI](https://github.com/alpkeskin/gotoon/actions/workflows/ci.yml/badge.svg)](https://github.com/alpkeskin/gotoon/actions/workflows/ci.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/alpkeskin/gotoon)](https://goreportcard.com/report/github.com/alpkeskin/gotoon)
-[![codecov](https://codecov.io/gh/alpkeskin/gotoon/branch/main/graph/badge.svg)](https://codecov.io/gh/alpkeskin/gotoon)
-[![Go Reference](https://pkg.go.dev/badge/github.com/alpkeskin/gotoon.svg)](https://pkg.go.dev/github.com/alpkeskin/gotoon)
+[![CI](https://github.com/k8scat/gotoon/actions/workflows/ci.yml/badge.svg)](https://github.com/k8scat/gotoon/actions/workflows/ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/k8scat/gotoon)](https://goreportcard.com/report/github.com/k8scat/gotoon)
+[![codecov](https://codecov.io/gh/k8scat/gotoon/branch/main/graph/badge.svg)](https://codecov.io/gh/k8scat/gotoon)
+[![Go Reference](https://pkg.go.dev/badge/github.com/k8scat/gotoon.svg)](https://pkg.go.dev/github.com/k8scat/gotoon)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/alpkeskin/gotoon)](https://go.dev/)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/k8scat/gotoon)](https://go.dev/)
 
 **GoTOON** is a Go implementation of [TOON (Token-Oriented Object Notation)](https://github.com/johannschopplich/toon), a compact, human-readable format designed for passing structured data to Large Language Models with significantly reduced token usage.
 
@@ -46,7 +46,7 @@ users[2]{id,name,role}:
 ## Installation
 
 ```bash
-go get github.com/alpkeskin/gotoon
+go get github.com/k8scat/gotoon
 ```
 
 ## Quick Start
@@ -58,7 +58,7 @@ import (
     "fmt"
     "log"
 
-    "github.com/alpkeskin/gotoon"
+    "github.com/k8scat/gotoon"
 )
 
 func main() {

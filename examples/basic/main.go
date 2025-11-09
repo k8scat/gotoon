@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/alpkeskin/gotoon"
+	"github.com/k8scat/gotoon"
 )
 
 func main() {
@@ -132,7 +132,7 @@ func main() {
 	// Example 9: Time values
 	fmt.Println("=== Example 9: Time Values ===")
 	timeData := map[string]interface{}{
-		"event": "User Login",
+		"event":     "User Login",
 		"timestamp": time.Date(2025, 1, 15, 10, 30, 0, 0, time.UTC),
 	}
 	encoded, err = gotoon.Encode(timeData)

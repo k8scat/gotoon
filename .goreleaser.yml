@@ -51,7 +51,7 @@ changelog:
 
 release:
   github:
-    owner: alpkeskin
+    owner: k8scat
     name: gotoon
   draft: false
   prerelease: auto
@@ -64,11 +64,11 @@ release:
     ### Installation
 
     ```bash
-    go get github.com/alpkeskin/gotoon@{{ .Tag }}
+    go get github.com/k8scat/gotoon@{{ .Tag }}
     ```
   footer: |
-    **Full Changelog**: https://github.com/alpkeskin/gotoon/compare/{{ .PreviousTag }}...{{ .Tag }}
+    **Full Changelog**: https://github.com/k8scat/gotoon/compare/{{ .PreviousTag }}...{{ .Tag }}
 
     ---
 
-    For more information, see the [README](https://github.com/alpkeskin/gotoon#readme).
+    For more information, see the [README](https://github.com/k8scat/gotoon#readme).
