@@ -1,3 +1,3 @@
-module github.com/alpkeskin/gotoon
+module github.com/k8scat/gotoon
 
-go 1.25.3
+go 1.23.4
